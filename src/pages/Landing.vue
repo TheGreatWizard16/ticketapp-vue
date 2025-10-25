@@ -1,0 +1,28 @@
+<template>
+  <Layout>
+    <section class="hero card" aria-label="Welcome">
+      <img class="circle" src="/assets/circle.svg" alt="" aria-hidden="true" />
+      <div style="padding:48px 24px;display:grid;gap:16;position:relative;z-index:1">
+        <h1>Welcome to TicketApp</h1>
+        <p>Multi-framework ticketing with consistent design, strict validation, and protected routes.</p>
+        <div style="display:flex;gap:12px;flex-wrap:wrap">
+          <RouterLink class="btn" to="/auth/login">Get Started</RouterLink>
+          <RouterLink class="btn secondary" to="/auth/signup">Create Account</RouterLink>
+        </div>
+      </div>
+      <svg class="wave" viewBox="0 0 1440 200" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+        <path d="M0,80 C240,140 480,0 720,60 C960,120 1200,40 1440,100 L1440,200 L0,200 Z" fill="currentColor" opacity=".08"/>
+      </svg>
+    </section>
+
+    <section style="margin-top:24px" class="grid cols-3">
+      <div class="card"><h3>Consistent UI</h3><p>Same layout across React, Vue, Twig.</p></div>
+      <div class="card"><h3>Protected Routes</h3><p>Auth via <code>ticketapp_session</code>.</p></div>
+      <div class="card"><h3>CRUD</h3><p>Create, edit, delete with validation.</p></div>
+    </section>
+  </Layout>
+</template>
+
+<script setup lang="ts">
+import Layout from '../components/Layout.vue'
+</script>
