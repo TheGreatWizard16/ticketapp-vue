@@ -2,7 +2,7 @@
 ---
 
 ## 🧱 2️⃣ Vue — `ticketapp-vue/README.md`
-```markdown
+```markdown ```
 # 🎟️ TicketApp (Vue)
 
 Implementation of the TicketApp using **Vue 3 + Vite + TypeScript + Pinia + Vue Router**.  
