@@ -30,6 +30,11 @@ Delivers the same layout, logic, and behavior as the React version, fulfilling H
 
 ---
 
+## Live link
+https://ticketapp-vue-git-main-abrahams-projects-876d6f8f.vercel.app
+
+---
+
 ## 🧰 Setup & Run
 ```bash
 git clone https://github.com/TheGreatWizard16/ticketapp-vue.git
